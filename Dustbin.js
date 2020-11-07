@@ -9,7 +9,7 @@ class Dustbin{
     }
     
     display(){
-        var pos = this.body.position
+        //var pos = this.body.position
         imageMode(CENTER)
         push();
         image(this.image,800,310,this.width,this.height)
