@@ -16,6 +16,6 @@ class Paper{
     display(){ 
         var pos = this.body.position
         imageMode(CENTER)
-        image(this.image,pos.x,pos.y,this.radius,this.radius-0)
+        image(this.image,pos.x,pos.y,this.radius*3,this.radius*3)
     }
 }
